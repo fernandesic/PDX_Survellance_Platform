@@ -1,0 +1,154 @@
+{
+  "_meta": {
+    "description": "PDX preset catalogue for the OneHealth Cross-border Importation sub-module and the wbepi simulator. Maintained by the PDX core team.",
+    "version": "1.0.0",
+    "last_updated": "2026-05-15",
+    "maintained_by": "Isaias Fernandes Co (technical), WHO AFRO HEP"
+  },
+
+  "strain_presets": {
+    "_description": "Pathogen-specific parameter priors for the SEIRD ensemble. R0_mean and R0_sd parameterise a truncated normal distribution; cfr_min and cfr_max parameterise a uniform distribution. Used by the wbepi simulator's R0-ensemble mode.",
+    "ebola_zaire": {
+      "label": "Ebola virus disease (Zaire)",
+      "r0_mean": 1.8,
+      "r0_sd": 0.30,
+      "cfr_min": 0.55,
+      "cfr_max": 0.75,
+      "latent_days": 9.7,
+      "infectious_days": 5.0,
+      "note": "Reference: 2014-2016 West Africa outbreak; 2018-2020 Kivu epidemic."
+    },
+    "ebola_sudan": {
+      "label": "Ebola virus disease (Sudan)",
+      "r0_mean": 1.5,
+      "r0_sd": 0.25,
+      "cfr_min": 0.40,
+      "cfr_max": 0.60,
+      "latent_days": 9.7,
+      "infectious_days": 5.0,
+      "note": "Reference: 2022-2023 Mubende Uganda outbreak."
+    },
+    "ebola_bundibugyo": {
+      "label": "Ebola virus disease (Bundibugyo)",
+      "r0_mean": 1.5,
+      "r0_sd": 0.18,
+      "cfr_min": 0.25,
+      "cfr_max": 0.40,
+      "latent_days": 9.7,
+      "infectious_days": 5.0,
+      "note": "Reference: 2007 Bundibugyo Uganda outbreak; 2012 Orientale DRC outbreak. Used for Ituri 2026 calibration."
+    },
+    "marburg": {
+      "label": "Marburg virus disease",
+      "r0_mean": 1.5,
+      "r0_sd": 0.30,
+      "cfr_min": 0.50,
+      "cfr_max": 0.88,
+      "latent_days": 8.0,
+      "infectious_days": 9.0,
+      "note": "Reference: Angola 2005; Equatorial Guinea 2023; Tanzania 2023."
+    },
+    "mpox_clade_i": {
+      "label": "Mpox (clade I)",
+      "r0_mean": 1.4,
+      "r0_sd": 0.25,
+      "cfr_min": 0.01,
+      "cfr_max": 0.10,
+      "latent_days": 8.5,
+      "infectious_days": 21.0,
+      "note": "Reference: DRC endemic clade Ia; 2024 clade Ib emergence in eastern DRC."
+    },
+    "lassa": {
+      "label": "Lassa fever",
+      "r0_mean": 1.1,
+      "r0_sd": 0.15,
+      "cfr_min": 0.01,
+      "cfr_max": 0.15,
+      "latent_days": 10.0,
+      "infectious_days": 10.0,
+      "note": "Reference: Nigeria, Sierra Leone, Guinea endemic transmission. CFR much higher in hospital settings."
+    }
+  },
+
+  "corridor_presets": {
+    "_description": "Pre-tuned cross-border importation inputs for known outbreak corridors. Updated quarterly from IOM Displacement Tracking Matrix Flow Monitoring data.",
+    "ituri": {
+      "label": "Ituri Province, DRC",
+      "source_catchment_population": 250000,
+      "countries": [
+        {
+          "name": "Uganda",
+          "iso3": "UGA",
+          "daily_crossings": 4500,
+          "catchment_share": 0.35,
+          "border_open": 1.0,
+          "direct_border": true,
+          "ghs_index": 49.6,
+          "readiness_composite": 0.62,
+          "note": "Direct Mahagi-Goli-Paidha border. Strong national EVD response history; PoE screening at 22 sites. Vulnerability concentrates in West Nile border districts (Zombo, Nebbi, Arua)."
+        },
+        {
+          "name": "South Sudan",
+          "iso3": "SSD",
+          "daily_crossings": 1200,
+          "catchment_share": 0.55,
+          "border_open": 0.7,
+          "direct_border": true,
+          "ghs_index": 28.6,
+          "readiness_composite": 0.28,
+          "note": "Direct Aru-Mahagi border with Yei River and Morobo counties. Lowest readiness of any neighbour; severe IPC and coordination gaps in border facilities; active refugee bidirectional flow."
+        },
+        {
+          "name": "Rwanda",
+          "iso3": "RWA",
+          "daily_crossings": 600,
+          "catchment_share": 0.05,
+          "border_open": 1.0,
+          "direct_border": false,
+          "ghs_index": 44.1,
+          "readiness_composite": 0.75,
+          "note": "No direct Ituri border. Pathway is indirect (Ituri -> North Kivu -> Goma -> Rusizi/Cyanika). High national readiness."
+        },
+        {
+          "name": "Burundi",
+          "iso3": "BDI",
+          "daily_crossings": 200,
+          "catchment_share": 0.02,
+          "border_open": 1.0,
+          "direct_border": false,
+          "ghs_index": 33.5,
+          "readiness_composite": 0.48,
+          "note": "No direct Ituri border. Pathway only via North/South Kivu transit. Lowest crossing volume; importation probability lowest of the four."
+        }
+      ]
+    },
+    "north-kivu-goma": {
+      "label": "North Kivu / Goma corridor, DRC",
+      "source_catchment_population": 1500000,
+      "countries": [
+        { "name": "Uganda",   "iso3": "UGA", "daily_crossings": 2500, "catchment_share": 0.25, "border_open": 1.0, "direct_border": true,  "ghs_index": 49.6, "readiness_composite": 0.62, "note": "Bwera and Ishasha crossings." },
+        { "name": "Rwanda",   "iso3": "RWA", "daily_crossings": 8000, "catchment_share": 0.65, "border_open": 1.0, "direct_border": true,  "ghs_index": 44.1, "readiness_composite": 0.75, "note": "Petite Barriere and Grande Barriere at Goma-Gisenyi: highest crossing volume in eastern DRC." },
+        { "name": "Burundi",  "iso3": "BDI", "daily_crossings": 1500, "catchment_share": 0.15, "border_open": 1.0, "direct_border": false, "ghs_index": 33.5, "readiness_composite": 0.48, "note": "Via Bukavu transit." },
+        { "name": "Tanzania", "iso3": "TZA", "daily_crossings": 2000, "catchment_share": 0.10, "border_open": 1.0, "direct_border": true,  "ghs_index": 39.1, "readiness_composite": 0.55, "note": "Kigoma and Kagera regions via Lake Tanganyika." }
+      ]
+    },
+    "equateur": {
+      "label": "Equateur Province / Mbandaka, DRC",
+      "source_catchment_population": 400000,
+      "countries": [
+        { "name": "Republic of the Congo",     "iso3": "COG", "daily_crossings": 800, "catchment_share": 0.40, "border_open": 1.0, "direct_border": true, "ghs_index": 27.8, "readiness_composite": 0.32, "note": "Brazzaville-Kinshasa river axis." },
+        { "name": "Central African Republic", "iso3": "CAF", "daily_crossings": 400, "catchment_share": 0.25, "border_open": 0.6, "direct_border": true, "ghs_index": 23.6, "readiness_composite": 0.20, "note": "Ubangi river corridor; conflict-affected." }
+      ]
+    },
+    "cross-sahel": {
+      "label": "Cross-Sahel corridor",
+      "source_catchment_population": 1000000,
+      "countries": [
+        { "name": "Niger",    "iso3": "NER", "daily_crossings": 1800, "catchment_share": 0.30, "border_open": 0.8, "direct_border": true, "ghs_index": 32.4, "readiness_composite": 0.30, "note": "Diffa, Maradi, Tahoua corridor crossings." },
+        { "name": "Chad",     "iso3": "TCD", "daily_crossings": 900,  "catchment_share": 0.20, "border_open": 0.7, "direct_border": true, "ghs_index": 26.3, "readiness_composite": 0.22, "note": "Lake Chad basin crossings." },
+        { "name": "Cameroon", "iso3": "CMR", "daily_crossings": 1200, "catchment_share": 0.25, "border_open": 0.9, "direct_border": true, "ghs_index": 32.0, "readiness_composite": 0.38, "note": "Far North and Adamawa regions." },
+        { "name": "Nigeria",  "iso3": "NGA", "daily_crossings": 3500, "catchment_share": 0.40, "border_open": 1.0, "direct_border": true, "ghs_index": 38.4, "readiness_composite": 0.48, "note": "Cross-border traders, refugees, ECOWAS movement." }
+      ]
+    }
+  }
+}

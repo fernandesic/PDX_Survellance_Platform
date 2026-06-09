@@ -1,0 +1,159 @@
+.hdis-theme {
+  --background: 210 30% 98%;
+  --foreground: 210 40% 12%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 210 40% 12%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 210 40% 12%;
+
+  --primary: 197 100% 44%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 197 30% 92%;
+  --secondary-foreground: 197 80% 25%;
+
+  --muted: 210 20% 94%;
+  --muted-foreground: 210 15% 45%;
+
+  --accent: 197 60% 88%;
+  --accent-foreground: 197 100% 25%;
+
+  --destructive: 0 72% 51%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 210 20% 88%;
+  --input: 210 20% 88%;
+  --ring: 197 100% 44%;
+
+  --radius: 0.5rem;
+
+  --sidebar-background: 197 100% 20%;
+  --sidebar-foreground: 197 20% 92%;
+  --sidebar-primary: 0 0% 100%;
+  --sidebar-primary-foreground: 197 100% 20%;
+  --sidebar-accent: 197 80% 28%;
+  --sidebar-accent-foreground: 0 0% 100%;
+  --sidebar-border: 197 80% 28%;
+  --sidebar-ring: 0 0% 100%;
+
+  --threat-critical: 0 72% 51%;
+  --threat-high: 25 95% 53%;
+  --threat-medium: 38 92% 50%;
+  --threat-low: 160 70% 40%;
+  --signal-glow: 197 100% 44%;
+  --grid-line: 210 20% 90%;
+  --surface-elevated: 0 0% 100%;
+  --text-dim: 210 15% 55%;
+
+  border-color: hsl(var(--border));
+}
+
+.hdis-theme * {
+  border-color: hsl(var(--border));
+}
+
+.dark .hdis-theme,
+.hdis-theme.dark {
+  --background: 224 52% 4%;
+  --foreground: 210 30% 92%;
+
+  --card: 215 30% 13%;
+  --card-foreground: 210 30% 92%;
+
+  --popover: 215 30% 14%;
+  --popover-foreground: 210 30% 92%;
+
+  --primary: 197 100% 44%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 215 25% 18%;
+  --secondary-foreground: 210 20% 80%;
+
+  --muted: 215 25% 16%;
+  --muted-foreground: 215 15% 55%;
+
+  --accent: 197 50% 25%;
+  --accent-foreground: 197 40% 90%;
+
+  --destructive: 0 72% 51%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 215 25% 20%;
+  --input: 215 25% 20%;
+  --ring: 197 100% 44%;
+
+  --sidebar-background: 215 35% 8%;
+  --sidebar-foreground: 210 20% 85%;
+  --sidebar-primary: 197 100% 50%;
+  --sidebar-primary-foreground: 215 35% 8%;
+  --sidebar-accent: 215 30% 16%;
+  --sidebar-accent-foreground: 210 20% 92%;
+  --sidebar-border: 215 25% 18%;
+  --sidebar-ring: 197 100% 44%;
+
+  --threat-critical: 0 72% 51%;
+  --threat-high: 25 95% 53%;
+  --threat-medium: 38 92% 50%;
+  --threat-low: 160 70% 45%;
+  --signal-glow: 197 100% 44%;
+  --grid-line: 215 25% 16%;
+  --surface-elevated: 215 30% 14%;
+  --text-dim: 215 15% 45%;
+}
+
+.hdis-theme .font-mono-display {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.hdis-theme .glow-primary {
+  box-shadow: 0 0 20px hsl(197 100% 44% / 0.15), 0 0 60px hsl(197 100% 44% / 0.05);
+}
+
+.hdis-theme .glow-accent {
+  box-shadow: 0 0 20px hsl(38 92% 50% / 0.15), 0 0 60px hsl(38 92% 50% / 0.05);
+}
+
+.hdis-theme .glow-destructive {
+  box-shadow: 0 0 20px hsl(0 72% 51% / 0.15), 0 0 60px hsl(0 72% 51% / 0.05);
+}
+
+.hdis-theme .grid-pattern {
+  background-image:
+    linear-gradient(hsl(210 20% 90% / 0.5) 1px, transparent 1px),
+    linear-gradient(90deg, hsl(210 20% 90% / 0.5) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.hdis-theme .text-threat-critical {
+  color: hsl(var(--threat-critical));
+}
+
+.hdis-theme .text-threat-high {
+  color: hsl(var(--threat-high));
+}
+
+.hdis-theme .text-threat-medium {
+  color: hsl(var(--threat-medium));
+}
+
+.hdis-theme .text-threat-low {
+  color: hsl(var(--threat-low));
+}
+
+.hdis-theme .bg-threat-critical {
+  background-color: hsl(var(--threat-critical));
+}
+
+.hdis-theme .bg-threat-high {
+  background-color: hsl(var(--threat-high));
+}
+
+.hdis-theme .bg-threat-medium {
+  background-color: hsl(var(--threat-medium));
+}
+
+.hdis-theme .bg-threat-low {
+  background-color: hsl(var(--threat-low));
+}

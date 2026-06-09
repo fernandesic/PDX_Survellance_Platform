@@ -1,0 +1,27 @@
+# gitleaks config for this repo.
+# Extends the default rule set, adds allowlists for known false positives.
+# Run:  gitleaks detect --no-banner
+
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "TypeScript object literal property keys (sigKey/key:) used in form sections and table columns — not secrets, just identifier names."
+regexes = [
+    '''(?:sigKey|key)\s*:\s*['"]section_\d+_(?:signature|data)['"]''',
+    '''(?:sigKey|key)\s*:\s*['"](?:supervisor_signature|supervisor_data)['"]''',
+    '''key\s*:\s*['"](?:compare|country|total_chws|active_percentage|population_\d+|chws_per_\d+|total_regions|coverage|region|district|name|id|status|date|email)['"]''',
+]
+paths = [
+    '''frontend-main/src/pages/(?:departmentForm|supplierForm|chw)/.*\.tsx?''',
+    '''frontend-main/src/pages/chw\.tsx''',
+    '''frontend-main/src/features/chw/.*\.tsx?''',
+]
+
+[[allowlists]]
+description = "Historical CSV dataset files no longer in tree; flagged on data-row entropy, not secrets."
+paths = [
+    '''.*/media/uploads/stardata/.*\.csv''',
+    '''data/STAR/.*\.csv''',
+    '''backend-temp/.*''',
+]

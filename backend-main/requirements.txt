@@ -1,0 +1,110 @@
+# wbepi engine — rpy2 bridge to upstream R package.
+# Must be rebuilt from source against the installed R version
+# (see wbepi-rpy2/setup_r_env.sh). rpy2 3.6+ requires R >= 4.5
+# (uses R_getVar / R_ParentEnv); Ubuntu 24.04 ships R 4.3.3, so
+# pin to the 3.5.x line until system R is upgraded.
+rpy2>=3.5,<3.6
+scipy>=1.17  # parameter fitting in wbepi_engine/fitting.py
+
+# Core Django
+Django==4.2.4
+asgiref==3.7.2
+sqlparse==0.4.4
+pytz==2023.3
+
+# Database
+dj-database-url==2.0.0
+psycopg2-binary==2.9.9  # PostgreSQL adapter (required for DATABASE_URL)
+
+# Django REST Framework
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.3.1
+django-filter==23.1
+drf-yasg==1.21.7
+swagger-ui-bundle==0.0.9
+
+# Authentication
+dj-rest-auth==2.2.7
+django-rest-auth==0.9.5
+django-allauth==0.52.0
+msal>=1.31.0,<2.0
+django-oauth-toolkit==2.3.0
+django-rest-framework-social-oauth2==1.1.0
+social-auth-app-django==5.3.0
+social-auth-core==4.4.2
+oauthlib==3.2.2
+oauth2client==4.1.3
+requests-oauthlib==1.3.1
+python3-openid==3.2.0
+PyJWT==2.8.0
+python-jwt==4.0.0
+google_auth_oauthlib
+google-auth-oauthlib
+google-api-python-client
+
+# Security & Middleware
+django-cors-headers==4.2.0
+django-csp
+django-permissions-policy
+whitenoise==6.5.0
+
+# Data Processing
+pandas
+openpyxl
+python-dateutil==2.8.2
+
+# Utilities
+python-dotenv==1.0.0
+requests==2.28.1
+requests-toolbelt==0.10.1
+urllib3==1.26.16
+PyYAML==6.0.1
+six==1.16.0
+packaging==23.1
+setuptools
+aes-everywhere
+pycryptodome==3.19.0
+
+# Server
+gunicorn==21.2.0
+dj-static==0.0.6
+static3==0.7.0
+
+# Phone Number
+django-phonenumber-field==7.1.0
+phonenumberslite==8.13.20
+
+# Caching & Monitoring
+django_redis
+moesifdjango
+django-sonar
+
+# Email
+django-email-verification==0.3.1
+sendgrid>=6.11.0
+
+# Cron
+django-crontab==0.7.1
+
+# Testing
+pytest==7.1.1
+atomicwrites==1.4.1
+attrs==23.1.0
+py==1.11.0
+
+# Celery (configured but not actively used - keep for future)
+celery==5.3.6
+amqp
+billiard==4.2.0
+vine==5.1.0
+pika
+
+# Other dependencies
+pyparsing==3.1.1
+pyasn1==0.5.0
+pyasn1-modules==0.3.0
+pycparser==2.21
+protobuf==4.24.3
+prompt_toolkit==3.0.43
+wcwidth==0.2.12
+googleapis-common-protos==1.60.0

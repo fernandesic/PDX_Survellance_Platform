@@ -1,0 +1,251 @@
+/* ═══════════════════════════════════════════════════
+   ONE HEALTH DESIGN SYSTEM — Scoped Styles
+═══════════════════════════════════════════════════ */
+
+:root {
+  --oh-ink: #08111c;
+  --oh-ink2: #0d1a27;
+  --oh-ink3: #132130;
+  --oh-ink4: #1a2d40;
+  --oh-glass: rgba(13, 26, 39, 0.92);
+  --oh-glass2: rgba(8, 17, 28, 0.85);
+  --oh-aqua: #00e5c8;
+  --oh-aqua2: #00c4ac;
+  --oh-aqua-glow: rgba(0, 229, 200, 0.15);
+  --oh-aqua-faint: rgba(0, 229, 200, 0.06);
+  --oh-amber: #ffb347;
+  --oh-amber-glow: rgba(255, 179, 71, 0.15);
+  --oh-crimson: #ff3d5a;
+  --oh-crimson-glow: rgba(255, 61, 90, 0.15);
+  --oh-cobalt: #4f8ef7;
+  --oh-cobalt-glow: rgba(79, 142, 247, 0.12);
+  --oh-sage: #4de8a0;
+  --oh-sage-glow: rgba(77, 232, 160, 0.1);
+  --oh-text: #d4e3f0;
+  --oh-text2: #7a9cb8;
+  --oh-text3: #3d5a72;
+  --oh-text4: #1e3548;
+  --oh-border: rgba(255, 255, 255, 0.06);
+  --oh-border2: rgba(255, 255, 255, 0.1);
+  --oh-border3: rgba(0, 229, 200, 0.2);
+  --oh-r: 6px;
+  --oh-r2: 10px;
+  --oh-r3: 14px;
+}
+
+/* Pulse animation for alert dots */
+@keyframes oh-pulse-ring {
+  0% {
+    transform: scale(0.3);
+    opacity: 0.8;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes oh-pulse-dot {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3);
+  }
+
+  70% {
+    box-shadow: 0 0 0 6px rgba(255, 255, 255, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
+@keyframes oh-fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes oh-countUp {
+  from {
+    opacity: 0.6;
+    transform: scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Glassmorphism card base */
+.oh-glass-card {
+  background: var(--oh-glass);
+  border: 1px solid var(--oh-border2);
+  border-radius: var(--oh-r2);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  animation: oh-fadeUp 0.4s ease both;
+}
+
+.oh-glass-card:hover {
+  border-color: var(--oh-border3);
+}
+
+/* Scrollbar inside One Health */
+.oh-scroll::-webkit-scrollbar {
+  width: 3px;
+}
+
+.oh-scroll::-webkit-scrollbar-thumb {
+  background: var(--oh-ink4);
+  border-radius: 2px;
+}
+
+.oh-scroll::-webkit-scrollbar-thumb:hover {
+  background: var(--oh-text3);
+}
+
+/* Custom slider for simulation */
+.oh-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 3px;
+  background: var(--oh-ink4);
+  border-radius: 2px;
+  cursor: pointer;
+  outline: none;
+}
+
+.oh-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: var(--oh-aqua);
+  cursor: pointer;
+  box-shadow: 0 0 0 2px var(--oh-aqua-glow), 0 0 8px var(--oh-aqua-glow);
+  transition: box-shadow 0.15s;
+}
+
+.oh-slider::-webkit-slider-thumb:hover {
+  box-shadow: 0 0 0 4px var(--oh-aqua-glow), 0 0 12px var(--oh-aqua-glow);
+}
+
+/* Tier badge colors */
+.oh-tier-4 {
+  background: rgba(255, 61, 90, 0.18);
+  color: var(--oh-crimson);
+  border: 1px solid rgba(255, 61, 90, 0.35);
+}
+
+.oh-tier-3 {
+  background: rgba(255, 179, 71, 0.14);
+  color: var(--oh-amber);
+  border: 1px solid rgba(255, 179, 71, 0.28);
+}
+
+.oh-tier-2 {
+  background: rgba(79, 142, 247, 0.12);
+  color: var(--oh-cobalt);
+  border: 1px solid rgba(79, 142, 247, 0.22);
+}
+
+.oh-tier-1 {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--oh-text3);
+  border: 1px solid var(--oh-border);
+}
+
+/* Agent status badges */
+.oh-ast-running {
+  color: var(--oh-aqua);
+  background: var(--oh-aqua-faint);
+}
+
+.oh-ast-alert {
+  color: var(--oh-crimson);
+  background: var(--oh-crimson-glow);
+}
+
+.oh-ast-idle {
+  color: var(--oh-text3);
+  background: transparent;
+  border: 1px solid var(--oh-border);
+}
+
+.oh-ast-pending {
+  color: var(--oh-amber);
+  background: var(--oh-amber-glow);
+}
+
+/* Tag styles */
+.oh-tag-ihr {
+  background: rgba(255, 179, 71, 0.1);
+  color: var(--oh-amber);
+}
+
+.oh-tag-woah {
+  background: rgba(79, 142, 247, 0.1);
+  color: var(--oh-cobalt);
+}
+
+.oh-tag-zoonotic {
+  background: var(--oh-aqua-glow);
+  color: var(--oh-aqua);
+}
+
+/* ─── TRIAD Dashboard Additions ─────────────── */
+
+/* Drawer slide-in from right */
+@keyframes oh-slideInRight {
+  from {
+    transform: translateX(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Search dropdown fade */
+@keyframes oh-fadeInDown {
+  from {
+    transform: translateY(-4px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Phase pill pulse */
+@keyframes oh-phasePulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 currentColor;
+  }
+  50% {
+    box-shadow: 0 0 0 4px transparent;
+  }
+}
+
+/* Apply animations */
+.oh-glass-card[style*="position: fixed"] {
+  animation: oh-slideInRight 0.25s ease both;
+}
+
+/* Search results dropdown animation */
+.oh-glass-card + .oh-glass-card,
+div > .oh-glass-card:not(:first-child) {
+  animation: oh-fadeInDown 0.15s ease both;
+}

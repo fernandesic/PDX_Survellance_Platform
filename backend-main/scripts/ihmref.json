@@ -1,0 +1,896 @@
+
+  {
+    "simulation_exercise": {
+      "2016": [
+        {
+          "country": "Burkina Faso",
+          "full_name": "Burkina Faso",
+          "state": "",
+          "start_date": "2016-05-06",
+          "end_date": "2016-05-06",
+          "incident": "Burkina Faso (May 6 & October 26-27)"
+        },
+        {
+          "country": "Burkina Faso",
+          "full_name": "Burkina Faso",
+          "state": "",
+          "start_date": "2016-10-26",
+          "end_date": "2016-10-27",
+          "incident": "Burkina Faso (May 6 & October 26-27)"
+        },
+        {
+          "country": "Central African Republic",
+          "full_name": "Central African Republic",
+          "state": "",
+          "start_date": "2016-05-13",
+          "end_date": "2016-05-13",
+          "incident": "Central African Republic (May 13)"
+        },
+        {
+          "country": "Chad",
+          "full_name": "Chad",
+          "state": "",
+          "start_date": "2016-05-13",
+          "end_date": "2016-05-13",
+          "incident": "Chad (May 13)"
+        },
+        {
+          "country": "Cote d'Ivoire",
+          "full_name": "Cote d'Ivoire",
+          "state": "",
+          "start_date": "2016-02-03",
+          "end_date": "2016-02-05",
+          "incident": "Côte d’Ivoire (February 3-5 & November 30)"
+        },
+        {
+          "country": "Cote d'Ivoire",
+          "full_name": "Cote d'Ivoire",
+          "state": "",
+          "start_date": "2016-11-30",
+          "end_date": "2016-11-30",
+          "incident": "Côte d’Ivoire (February 3-5 & November 30)"
+        },
+        {
+          "country": "Democratic Republic of Congo",
+          "full_name": "Democratic Republic of Congo",
+          "state": "",
+          "start_date": "2016-05-05",
+          "end_date": "2016-05-05",
+          "incident": "Democratic Republic of Congo (May 5)"
+        },
+        {
+          "country": "Gambia",
+          "full_name": "Gambia",
+          "state": "",
+          "start_date": "2016-02-05",
+          "end_date": "2016-02-05",
+          "incident": "Gambia (February 5)"
+        },
+        {
+          "country": "Ghana",
+          "full_name": "Ghana",
+          "state": "",
+          "start_date": "2016-09-04",
+          "end_date": "2016-09-09",
+          "incident": "Ghana (September 4-9, September 12-15, October 10-14 – 4 exercises in 4 regions)"
+        }
+      ],
+
+      "2017": [
+        {
+          "country": "Cameroon",
+          "full_name": "Cameroon",
+          "state": "",
+          "start_date": "2017-09-07",
+          "end_date": "2017-09-15",
+          "incident": "Cameroon (September 7-15)"
+        },
+        {
+          "country": "Mauritania",
+          "full_name": "Mauritania",
+          "state": "",
+          "start_date": "2017-11-16",
+          "end_date": "2017-11-17",
+          "incident": "Mauritania (November 16-17)"
+        }
+      ],
+
+      "2018": [
+        {
+          "country": "Chad",
+          "full_name": "Chad",
+          "state": "",
+          "start_date": "2018-11-29",
+          "end_date": "2018-11-29",
+          "incident": "Chad (November 29)"
+        },
+        {
+          "country": "Nigeria",
+          "full_name": "Nigeria",
+          "state": "",
+          "start_date": "2018-03-11",
+          "end_date": "2018-03-17",
+          "incident": "Nigeria (March 11-17)"
+        }
+      ],
+
+      "2019": [
+        {
+          "country": "Rwanda",
+          "full_name": "Rwanda",
+          "state": "",
+          "start_date": "2019-01-08",
+          "end_date": "2019-01-11",
+          "incident": "Rwanda (January 8-11)"
+        }
+      ],
+
+      "2020": [
+        {
+          "country": "Ethiopia",
+          "full_name": "Ethiopia",
+          "state": "",
+          "start_date": "2020-03-05",
+          "end_date": "2020-03-06",
+          "incident": "Ethiopia COVID19 SimEx (5-6 March)"
+        }
+      ],
+
+      "2021": [
+        {
+          "country": "Mauritius",
+          "full_name": "Mauritius",
+          "state": "",
+          "start_date": "2021-01-25",
+          "end_date": "2021-01-25",
+          "incident": "Mauritius (COVID-19 Vaccine TTX) (25 January)"
+        }
+      ],
+
+      "2022": [
+        {
+          "country": "Burkina Faso",
+          "full_name": "Burkina Faso",
+          "state": "",
+          "start_date": "2022-04-25",
+          "end_date": "2022-04-29",
+          "incident": "Burkina Faso (25-29 April)"
+        }
+      ],
+
+      "2023": [
+        {
+          "country": "Equatorial Guinea",
+          "full_name": "Equatorial Guinea",
+          "state": "",
+          "start_date": "2023-01-14",
+          "end_date": "2023-01-14",
+          "incident": "Equatorial Guinea (PHEOC TTX) (14 January)"
+        }
+      ],
+
+      "2024": [
+        {
+          "country": "Ghana",
+          "full_name": "Ghana",
+          "state": "",
+          "start_date": "2024-02-22",
+          "end_date": "2024-02-24",
+          "incident": "Ghana (Community Readiness TTX) (Feb 22-24)"
+        }
+      ],
+
+      "2025": [
+        {
+          "country": "Uganda",
+          "full_name": "Uganda",
+          "state": "",
+          "start_date": "2025-02-04",
+          "end_date": "2025-02-06",
+          "incident": "Uganda (Community Protection TTX) (4-6 February)"
+        }
+      ]
+    },
+
+    "after_action_review": {
+      "2017": [
+        {
+          "country": "Angola",
+          "full_name": "Angola",
+          "state": "",
+          "start_date": "2017-11-20",
+          "end_date": "2017-11-24",
+          "incident": "Angola – Yellow fever (November 20-24)"
+        },
+        {
+          "country": "Benin",
+          "full_name": "Benin",
+          "state": "",
+          "start_date": "2017-07-10",
+          "end_date": "2017-07-14",
+          "incident": "Benin – Lassa fever (July 10-14)"
+        },
+        {
+          "country": "Burkina Faso",
+          "full_name": "Burkina Faso",
+          "state": "",
+          "start_date": "2017-02-13",
+          "end_date": "2017-02-15",
+          "incident": "Burkina Faso – Dengue (February 13-15)"
+        },
+        {
+          "country": "Central African Republic",
+          "full_name": "Central African Republic",
+          "state": "",
+          "start_date": "2017-11-13",
+          "end_date": "2017-11-17",
+          "incident": "Central African Republic – Cholera (November 13-17)"
+        },
+        {
+          "country": "Mauritania",
+          "full_name": "Mauritania",
+          "state": "",
+          "start_date": "2017-09-18",
+          "end_date": "2017-09-22",
+          "incident": "Mauritania – Crimean Congo haemorrhagic fever (September 18-22)"
+        },
+        {
+          "country": "Mozambique",
+          "full_name": "Mozambique",
+          "state": "",
+          "start_date": "2017-07-24",
+          "end_date": "2017-07-28",
+          "incident": "Mozambique – Cholera (July 24-28)"
+        },
+        {
+          "country": "Namibia",
+          "full_name": "Namibia",
+          "state": "",
+          "start_date": "2017-12-11",
+          "end_date": "2017-12-15",
+          "incident": "Namibia - Crimean Congo haemorrhagic fever (December 11-15)"
+        },
+        {
+          "country": "Niger",
+          "full_name": "Niger",
+          "state": "",
+          "start_date": "2017-11-20",
+          "end_date": "2017-11-24",
+          "incident": "Niger – Rift Valley fever (November 20-24)"
+        },
+        {
+          "country": "Nigeria",
+          "full_name": "Nigeria",
+          "state": "",
+          "start_date": "2017-08-21",
+          "end_date": "2017-08-22",
+          "incident": "Nigeria – Lassa fever (August 21-22)"
+        },
+        {
+          "country": "Sierra Leone",
+          "full_name": "Sierra Leone",
+          "state": "",
+          "start_date": "2017-09-01",
+          "end_date": "2017-09-30",
+          "incident": "Sierra Leone – Landslide (September)"
+        },
+        {
+          "country": "Togo",
+          "full_name": "Togo",
+          "state": "",
+          "start_date": "2017-10-24",
+          "end_date": "2017-10-27",
+          "incident": "Togo – Lassa fever and Meningitis (October 24-27)"
+        },
+        {
+          "country": "Tanzania",
+          "full_name": "Tanzania",
+          "state": "",
+          "start_date": "2017-08-14",
+          "end_date": "2017-08-18",
+          "incident": "United Republic of Tanzania – Cholera (August 14-18)"
+        }
+      ],
+      "2018": [
+        {
+          "country": "Benin",
+          "full_name": "Benin",
+          "state": "",
+          "start_date": "2018-07-17",
+          "end_date": "2018-07-20",
+          "incident": "Benin – Lassa Fever (July 17-20)"
+        },
+        {
+          "country": "Burkina Faso",
+          "full_name": "Burkina Faso",
+          "state": "",
+          "start_date": "2018-04-16",
+          "end_date": "2018-04-19",
+          "incident": "Burkina Faso - Dengue (April 16-19)"
+        },
+        {
+          "country": "Burundi",
+          "full_name": "Burundi",
+          "state": "",
+          "start_date": "2018-04-09",
+          "end_date": "2018-04-14",
+          "incident": "Burundi - Malaria (April 9-14)"
+        },
+        {
+          "country": "Cabo Verde",
+          "full_name": "Cabo Verde",
+          "state": "",
+          "start_date": "2018-10-01",
+          "end_date": "2018-10-05",
+          "incident": "Cape Verde (October 01-05)"
+        },
+        {
+          "country": "Chad",
+          "full_name": "Chad",
+          "state": "",
+          "start_date": "2018-07-23",
+          "end_date": "2018-07-27",
+          "incident": "Chad - Hepatitis E (July 23-27)"
+        },
+        {
+          "country": "Liberia",
+          "full_name": "Liberia",
+          "state": "",
+          "start_date": "2018-03-08",
+          "end_date": "2018-03-09",
+          "incident": "Liberia – Meningitis (Mar 08 – 09)"
+        },
+        {
+          "country": "Madagascar",
+          "full_name": "Madagascar",
+          "state": "",
+          "start_date": "2018-07-02",
+          "end_date": "2018-07-06",
+          "incident": "Madagascar - Plague (July 2-6)"
+        },
+        {
+          "country": "Morocco",
+          "full_name": "Morocco",
+          "state": "",
+          "start_date": "2018-01-23",
+          "end_date": "2018-01-26",
+          "incident": "Morocco - Brucellosis (January 23-26)"
+        },
+        {
+          "country": "Nigeria",
+          "full_name": "Nigeria",
+          "state": "",
+          "start_date": "2018-05-28",
+          "end_date": "2018-05-31",
+          "incident": "Nigeria- Cholera (May 28-31)"
+        },
+        {
+          "country": "Nigeria",
+          "full_name": "Nigeria",
+          "state": "",
+          "start_date": "2018-06-04",
+          "end_date": "2018-06-07",
+          "incident": "Nigeria – Lassa Fever (June 4-7)"
+        },
+        {
+          "country": "Nigeria",
+          "full_name": "Nigeria",
+          "state": "",
+          "start_date": "2018-07-02",
+          "end_date": "2018-07-04",
+          "incident": "Nigeria – Monkey Pox (July 2-4)"
+        },
+        {
+          "country": "Nigeria",
+          "full_name": "Nigeria",
+          "state": "",
+          "start_date": "2018-08-13",
+          "end_date": "2018-08-15",
+          "incident": "Nigeria – Cerebrospinal Meningitis (August 13-15)"
+        },
+        {
+          "country": "Senegal",
+          "full_name": "Senegal",
+          "state": "",
+          "start_date": "2018-03-05",
+          "end_date": "2018-03-09",
+          "incident": "Senegal -Dengue (March 5-9)"
+        },
+        {
+          "country": "Uganda",
+          "full_name": "Uganda",
+          "state": "",
+          "start_date": "2018-03-05",
+          "end_date": "2018-03-09",
+          "incident": "Uganda - Marburg (March 5-9)"
+        }
+      ],
+      "2019": [
+        {
+          "country": "Cabo Verde",
+          "full_name": "Cabo Verde",
+          "state": "",
+          "start_date": "2019-02-25",
+          "end_date": "2019-03-01",
+          "incident": "Cabo Verde – Zika (February 25 – March 01)"
+        },
+        {
+          "country": "Benin",
+          "full_name": "Benin",
+          "state": "",
+          "start_date": "2019-05-27",
+          "end_date": "2019-05-31",
+          "incident": "Benin – Lassa Fever (May 27-31)"
+        },
+        {
+          "country": "Nigeria",
+          "full_name": "Nigeria",
+          "state": "",
+          "start_date": "2019-06-17",
+          "end_date": "2019-06-21",
+          "incident": "Nigeria – Yellow Fever (June 17-21)"
+        },
+        {
+          "country": "Senegal",
+          "full_name": "Senegal",
+          "state": "",
+          "start_date": "2019-06-11",
+          "end_date": "2019-06-15",
+          "incident": "Senegal – Dengue Fever (June 11-15)"
+        },
+        {
+          "country": "Uganda",
+          "full_name": "Uganda",
+          "state": "",
+          "start_date": "2019-08-28",
+          "end_date": "2019-08-30",
+          "incident": "Uganda EVD (August 28-30)"
+        }
+      ],
+      "2020": [
+        {
+          "country": "South Sudan",
+          "full_name": "South Sudan",
+          "state": "",
+          "start_date": "2020-07-15",
+          "end_date": "2020-07-15",
+          "incident": "South Sudan – Flood (15 July)"
+        }
+      ],
+      "2021": [
+        {
+          "country": "Democratic Republic of Congo",
+          "full_name": "Democratic Republic of Congo",
+          "state": "",
+          "start_date": "2021-06-07",
+          "end_date": "2021-06-10",
+          "incident": "Democratic Republic of the Congo – EVD (7-10 June)"
+        }
+      ],
+      "2022": [
+        {
+          "country": "Democratic Republic of Congo",
+          "full_name": "Democratic Republic of Congo",
+          "state": "Goma",
+          "start_date": "2022-03-10",
+          "end_date": "2022-03-12",
+          "incident": "Democratic Republic of Congo (Goma) - EVD (10-12 March)"
+        }
+      ],
+      "2023": [
+        {
+          "country": "Lesotho",
+          "full_name": "Lesotho",
+          "state": "",
+          "start_date": "2023-02-14",
+          "end_date": "2023-02-17",
+          "incident": "Lesotho – Measles Rubella SIA Campaign (14-17 February)"
+        }
+      ],
+      "2024": [
+        {
+          "country": "Zambia",
+          "full_name": "Zambia",
+          "state": "",
+          "start_date": "2024-04-15",
+          "end_date": "2024-04-19",
+          "incident": "Zambia – Anthrax (15 -19 April)"
+        }
+      ],
+      "2025": [
+        {
+          "country": "Rwanda",
+          "full_name": "Rwanda",
+          "state": "",
+          "start_date": "2025-01-28",
+          "end_date": "2025-01-30",
+          "incident": "Rwanda – Marburg Virus Disease (28-30 January)"
+        }
+      ]
+    },
+
+    "intra_action_review": {
+      "2020": [
+        {
+          "country": "Ethiopia",
+          "full_name": "Ethiopia",
+          "state": "",
+          "start_date": "2020-07-14",
+          "end_date": "2020-08-25",
+          "incident": "Ethiopia (July 14 – August 25)"
+        },
+        {
+          "country": "Mauritius",
+          "full_name": "Mauritius",
+          "state": "",
+          "start_date": "2020-06-30",
+          "end_date": "2020-08-06",
+          "incident": "Mauritius (30 Jun – 06 Aug)"
+        },
+        {
+          "country": "Niger",
+          "full_name": "Niger",
+          "state": "",
+          "start_date": "2020-09-28",
+          "end_date": "2020-10-09",
+          "incident": "Niger (28 September – 9 October)"
+        },
+        {
+          "country": "South Africa",
+          "full_name": "South Africa",
+          "state": "",
+          "start_date": "2020-08-27",
+          "end_date": "2020-08-27",
+          "incident": "South Africa (27 August)"
+        },
+        {
+          "country": "Nigeria",
+          "full_name": "Nigeria",
+          "state": "",
+          "start_date": "2020-08-26",
+          "end_date": "2020-08-26",
+          "incident": "Nigeria (26 August)"
+        },
+        {
+          "country": "Liberia",
+          "full_name": "Liberia",
+          "state": "",
+          "start_date": "2020-09-11",
+          "end_date": "2020-09-19",
+          "incident": "Liberia (September 11–19)"
+        },
+        {
+          "country": "Senegal",
+          "full_name": "Senegal",
+          "state": "",
+          "start_date": "2020-09-15",
+          "end_date": "2020-09-19",
+          "incident": "Senegal (September 15–19)"
+        },
+        {
+          "country": "Sierra Leone",
+          "full_name": "Sierra Leone",
+          "state": "",
+          "start_date": "2020-08-28",
+          "end_date": "2020-09-23",
+          "incident": "Sierra Leone (28 August – 23 September)"
+        },
+        {
+          "country": "Namibia",
+          "full_name": "Namibia",
+          "state": "",
+          "start_date": "2020-09-28",
+          "end_date": "2020-09-28",
+          "incident": "Namibia (28 September)"
+        },
+        {
+          "country": "South Sudan",
+          "full_name": "South Sudan",
+          "state": "",
+          "start_date": "2020-10-26",
+          "end_date": "2020-10-27",
+          "incident": "South Sudan (26–27 October)"
+        }
+      ],
+      "2021": [
+        {
+          "country": "Tanzania",
+          "full_name": "Tanzania",
+          "state": "Zanzibar",
+          "start_date": "2021-01-25",
+          "end_date": "2021-01-29",
+          "incident": "Tanzania (Zanzibar) (25–29 January)"
+        },
+        {
+          "country": "Cameroon",
+          "full_name": "Cameroon",
+          "state": "",
+          "start_date": "2021-02-22",
+          "end_date": "2021-02-26",
+          "incident": "Cameroon (22–26 February)"
+        }
+      ]
+    },
+
+    "early_action_review": {
+      "2024": [
+        {
+          "country": "Uganda",
+          "full_name": "Uganda",
+          "state": "",
+          "start_date": "2024-08-07",
+          "end_date": "2024-08-07",
+          "incident": "Mpox outbreak"
+        },
+        {
+          "country": "South Sudan",
+          "full_name": "South Sudan",
+          "state": "",
+          "start_date": "2024-08-02",
+          "end_date": "2024-08-04",
+          "incident": "Flood Response"
+        },
+        {
+          "country": "Kenya",
+          "full_name": "Kenya",
+          "state": "",
+          "start_date": "2024-08-15",
+          "end_date": "2024-08-15",
+          "incident": "Mpox"
+        }
+      ],
+      "2025": [
+        {
+          "country": "Uganda",
+          "full_name": "Uganda",
+          "state": "",
+          "start_date": "2025-02-21",
+          "end_date": "2025-02-22",
+          "incident": "Sudan Virus Disease"
+        }
+      ]
+    },
+
+    "naphs": {
+      "2016": [
+        {
+          "country": "Tanzania",
+          "full_name": "United Republic of Tanzania",
+          "state": "",
+          "start_date": "2016-11-14",
+          "end_date": "2016-11-18",
+          "incident": "National Action Plan for Health Security"
+        }
+      ],
+      "2017": [
+        { "country": "Eritrea", "full_name": "Eritrea", "start_date": "2017-04-04", "end_date": "2017-04-08", "incident": "National Action Plan for Health Security" },
+        { "country": "Liberia", "full_name": "Liberia", "start_date": "2017-11-27", "end_date": "2017-11-30", "incident": "National Action Plan for Health Security" },
+        { "country": "Morocco", "full_name": "Morocco", "start_date": "2017-06-19", "end_date": "2017-06-23", "incident": "National Action Plan for Health Security" },
+        { "country": "Mozambique", "full_name": "Mozambique", "start_date": "2017-10-11", "end_date": "2017-10-13", "incident": "National Action Plan for Health Security" },
+        { "country": "Namibia", "full_name": "Namibia", "start_date": "2017-10-31", "end_date": "2017-11-02", "incident": "National Action Plan for Health Security" },
+        { "country": "Senegal", "full_name": "Senegal", "start_date": "2017-09-12", "end_date": "2017-09-14", "incident": "National Action Plan for Health Security" },
+        { "country": "Sierra Leone", "full_name": "Sierra Leone", "start_date": "2017-11-07", "end_date": "2017-11-10", "incident": "National Action Plan for Health Security" },
+        { "country": "Uganda", "full_name": "Uganda", "start_date": "2017-10-10", "end_date": "2017-10-13", "incident": "National Action Plan for Health Security" }
+      ],
+      "2018": [
+        { "country": "Benin", "full_name": "Benin", "start_date": "2018-04-24", "end_date": "2018-04-27", "incident": "National Action Plan for Health Security" },
+        { "country": "Burkina Faso", "full_name": "Burkina Faso", "start_date": "2018-10-08", "end_date": "2018-10-12", "incident": "National Action Plan for Health Security" },
+        { "country": "Burundi", "full_name": "Burundi", "start_date": "2018-12-03", "end_date": "2018-12-07", "incident": "National Action Plan for Health Security" },
+        { "country": "Cameroon", "full_name": "Cameroon", "start_date": "2018-12-10", "end_date": "2018-12-14", "incident": "National Action Plan for Health Security" },
+        { "country": "Chad", "full_name": "Chad", "start_date": "2018-04-16", "end_date": "2018-04-20", "incident": "National Action Plan for Health Security" },
+        { "country": "Comoros", "full_name": "Comoros", "start_date": "2018-09-03", "end_date": "2018-09-07", "incident": "National Action Plan for Health Security" },
+        { "country": "Cote d'Ivoire", "full_name": "Côte d’Ivoire", "start_date": "2018-03-20", "end_date": "2018-03-22", "incident": "National Action Plan for Health Security" },
+        { "country": "Ethiopia", "full_name": "Ethiopia", "start_date": "2018-04-30", "end_date": "2018-05-02", "incident": "National Action Plan for Health Security" },
+        { "country": "Ghana", "full_name": "Ghana", "start_date": "2018-06-18", "end_date": "2018-06-22", "incident": "National Action Plan for Health Security" },
+        { "country": "Kenya", "full_name": "Kenya", "start_date": "2018-07-23", "end_date": "2018-07-27", "incident": "National Action Plan for Health Security" },
+        { "country": "Libya", "full_name": "Libya", "start_date": "2018-07-14", "end_date": "2018-07-16", "incident": "National Action Plan for Health Security" },
+        { "country": "Mauritania", "full_name": "Mauritania", "start_date": "2018-03-05", "end_date": "2018-03-09", "incident": "National Action Plan for Health Security" },
+        { "country": "Nigeria", "full_name": "Nigeria", "start_date": "2018-07-23", "end_date": "2018-07-27", "incident": "National Action Plan for Health Security" },
+        { "country": "Somalia", "full_name": "Somalia", "start_date": "2018-08-26", "end_date": "2018-08-28", "incident": "National Action Plan for Health Security" },
+        { "country": "South Africa", "full_name": "South Africa", "start_date": "2018-09-25", "end_date": "2018-09-27", "incident": "National Action Plan for Health Security" },
+        { "country": "Sudan", "full_name": "Sudan", "start_date": "2018-08-12", "end_date": "2018-08-14", "incident": "National Action Plan for Health Security" },
+        { "country": "Tanzania", "full_name": "United Republic of Tanzania (Zanzibar)", "state": "Zanzibar", "start_date": "2018-06-18", "end_date": "2018-06-22", "incident": "National Action Plan for Health Security" }
+      ],
+      "2019": [
+        { "country": "Democratic Republic of Congo", "full_name": "Democratic Republic of the Congo", "start_date": "2019-05-13", "end_date": "2019-05-17", "incident": "National Action Plan for Health Security" },
+        { "country": "Djibouti", "full_name": "Djibouti", "start_date": "2019-08-04", "end_date": "2019-08-07", "incident": "National Action Plan for Health Security" },
+        { "country": "Guinea", "full_name": "Guinea", "start_date": "2019-04-15", "end_date": "2019-04-19", "incident": "National Action Plan for Health Security" },
+        { "country": "Rwanda", "full_name": "Rwanda", "start_date": "2019-05-06", "end_date": "2019-05-10", "incident": "National Action Plan for Health Security" },
+        { "country": "Tunisia", "full_name": "Tunisia", "start_date": "2019-04-22", "end_date": "2019-04-24", "incident": "National Action Plan for Health Security" },
+        { "country": "Zimbabwe", "full_name": "Zimbabwe", "start_date": "2019-02-18", "end_date": "2019-02-22", "incident": "National Action Plan for Health Security" },
+        { "country": "Zambia", "full_name": "Zambia", "start_date": "2019-03-04", "end_date": "2019-03-08", "incident": "National Action Plan for Health Security" },
+        { "country": "Eswatini", "full_name": "Eswatini", "start_date": "2019-08-19", "end_date": "2019-08-23", "incident": "National Action Plan for Health Security" },
+        { "country": "Niger", "full_name": "Niger", "start_date": "2019-08-19", "end_date": "2019-08-23", "incident": "National Action Plan for Health Security" },
+        { "country": "Lesotho", "full_name": "Lesotho", "start_date": "2019-09-09", "end_date": "2019-09-13", "incident": "National Action Plan for Health Security" },
+        { "country": "South Sudan", "full_name": "South Sudan", "start_date": "2019-09-16", "end_date": "2019-09-20", "incident": "National Action Plan for Health Security" }
+      ],
+      "2020": [
+        { "country": "Malawi", "full_name": "Malawi", "start_date": "2020-02-17", "end_date": "2020-02-19", "incident": "National Action Plan for Health Security" },
+        { "country": "Botswana", "full_name": "Botswana", "start_date": "2020-03-16", "end_date": "2020-03-20", "incident": "National Action Plan for Health Security" },
+        { "country": "Madagascar", "full_name": "Madagascar", "start_date": "2020-07-01", "end_date": "2020-07-07", "incident": "National Action Plan for Health Security" },
+        { "country": "Mali", "full_name": "Mali", "start_date": "2020-11-09", "end_date": "2020-11-13", "incident": "National Action Plan for Health Security" }
+      ],
+      "2021": [
+        { "country": "Central African Republic", "full_name": "Central African Republic", "start_date": "2021-03-23", "end_date": "2021-03-26", "incident": "National Action Plan for Health Security" },
+        { "country": "Gabon", "full_name": "Gabon", "start_date": "2021-09-06", "end_date": "2021-09-10", "incident": "National Action Plan for Health Security" },
+        { "country": "Gambia", "full_name": "Gambia", "start_date": "2021-10-18", "end_date": "2021-10-22", "incident": "National Action Plan for Health Security" },
+        { "country": "Angola", "full_name": "Angola", "start_date": "2021-11-15", "end_date": "2021-11-19", "incident": "National Action Plan for Health Security" },
+        { "country": "Guinea Bissau", "full_name": "Guinea Bissau", "start_date": "2021-12-13", "end_date": "2021-12-19", "incident": "National Action Plan for Health Security" },
+        { "country": "Togo", "full_name": "Togo", "start_date": "2021-07-01", "end_date": "2021-07-31", "incident": "National Action Plan for Health Security" },
+        { "country": "Burkina Faso", "full_name": "Burkina Faso", "start_date": "", "end_date": "", "incident": "National Action Plan for Health Security" },
+        { "country": "Guinea", "full_name": "Guinea", "start_date": "", "end_date": "", "incident": "National Action Plan for Health Security" },
+        { "country": "Liberia", "full_name": "Liberia", "start_date": "", "end_date": "", "incident": "National Action Plan for Health Security" },
+        { "country": "Senegal", "full_name": "Senegal", "start_date": "", "end_date": "", "incident": "National Action Plan for Health Security" }
+      ],
+      "2022": [
+        { "country": "Congo", "full_name": "Republic of Congo", "start_date": "2022-02-28", "end_date": "2022-03-04", "incident": "National Action Plan for Health Security" },
+        { "country": "Eritrea", "full_name": "Eritrea", "start_date": "2022-03-01", "end_date": "2022-03-31", "incident": "National Action Plan for Health Security" },
+        { "country": "Cabo Verde", "full_name": "Cabo Verde", "start_date": "2022-04-12", "end_date": "2022-04-22", "incident": "National Action Plan for Health Security" },
+        { "country": "Cameroon", "full_name": "Cameroon", "start_date": "2022-05-30", "end_date": "2022-06-03", "incident": "National Action Plan for Health Security" },
+        { "country": "South Africa", "full_name": "South Africa", "start_date": "2022-05-23", "end_date": "2022-05-27", "incident": "National Action Plan for Health Security" },
+        { "country": "Cote d'Ivoire", "full_name": "Côte d’Ivoire", "start_date": "2022-06-06", "end_date": "2022-06-11", "incident": "National Action Plan for Health Security" },
+        { "country": "Lesotho", "full_name": "Lesotho", "start_date": "2022-06-13", "end_date": "2022-06-17", "incident": "National Action Plan for Health Security" },
+        { "country": "Namibia", "full_name": "Namibia", "start_date": "2022-06-13", "end_date": "2022-06-17", "incident": "National Action Plan for Health Security" },
+        { "country": "Tunisia", "full_name": "Tunisia", "start_date": "2022-06-28", "end_date": "2022-07-01", "incident": "National Action Plan for Health Security" },
+        { "country": "Botswana", "full_name": "Botswana", "start_date": "2022-08-22", "end_date": "2022-08-27", "incident": "National Action Plan for Health Security" },
+        { "country": "Uganda", "full_name": "Uganda", "start_date": "2022-09-12", "end_date": "2022-09-14", "incident": "National Action Plan for Health Security" },
+        { "country": "Sudan", "full_name": "Sudan", "start_date": "2022-10-18", "end_date": "2022-10-19", "incident": "National Action Plan for Health Security" },
+        { "country": "Madagascar", "full_name": "Madagascar", "start_date": "2022-11-14", "end_date": "2022-11-18", "incident": "National Action Plan for Health Security" },
+        { "country": "Rwanda", "full_name": "Rwanda", "start_date": "2022-11-14", "end_date": "2022-11-19", "incident": "National Action Plan for Health Security" },
+        { "country": "Mauritius", "full_name": "Mauritius", "start_date": "2022-11-21", "end_date": "2022-11-25", "incident": "National Action Plan for Health Security" },
+        { "country": "Central African Republic", "full_name": "Central African Republic", "start_date": "2022-12-07", "end_date": "2022-12-15", "incident": "National Action Plan for Health Security" },
+        { "country": "Democratic Republic of Congo", "full_name": "Democratic Republic of Congo", "start_date": "", "end_date": "", "incident": "National Action Plan for Health Security" },
+        { "country": "Ethiopia", "full_name": "Ethiopia", "start_date": "", "end_date": "", "incident": "National Action Plan for Health Security" },
+        { "country": "Kenya", "full_name": "Kenya", "start_date": "", "end_date": "", "incident": "National Action Plan for Health Security" },
+        { "country": "Tanzania", "full_name": "Tanzania", "start_date": "", "end_date": "", "incident": "National Action Plan for Health Security" }
+      ],
+      "2023": [
+        { "country": "Nigeria", "full_name": "Nigeria", "start_date": "2023-01-16", "end_date": "2023-01-20", "incident": "National Action Plan for Health Security" },
+        { "country": "Sierra Leone", "full_name": "Sierra Leone", "start_date": "2023-03-27", "end_date": "2023-03-29", "incident": "National Action Plan for Health Security" },
+        { "country": "Benin", "full_name": "Benin", "start_date": "2023-05-02", "end_date": "2023-05-05", "incident": "National Action Plan for Health Security" },
+        { "country": "Malawi", "full_name": "Malawi", "start_date": "2023-09-01", "end_date": "2023-09-30", "incident": "National Action Plan for Health Security" },
+        { "country": "Guinea", "full_name": "Guinea", "start_date": "2023-11-13", "end_date": "2023-11-17", "incident": "National Action Plan for Health Security" }
+      ]
+    },
+    "nbws": {
+      "2017": [
+        { "country": "Senegal", "full_name": "Senegal", "start_date": "2017-11-14", "end_date": "2017-11-16", "incident": "National Bridging Workshop" },
+        { "country": "Uganda", "full_name": "Uganda", "start_date": "2017-09-25", "end_date": "2017-09-27", "incident": "National Bridging Workshop" },
+        { "country": "Tanzania", "full_name": "United Republic of Tanzania", "start_date": "2017-10-16", "end_date": "2017-10-18", "incident": "National Bridging Workshop" }
+      ],
+      "2018": [
+        { "country": "Chad", "full_name": "Chad", "start_date": "2018-10-30", "end_date": "2018-11-01", "incident": "National Bridging Workshop" },
+        { "country": "Ethiopia", "full_name": "Ethiopia", "start_date": "2018-05-29", "end_date": "2018-05-31", "incident": "National Bridging Workshop" },
+        { "country": "Guinea", "full_name": "Guinea", "start_date": "2018-07-17", "end_date": "2018-07-19", "incident": "National Bridging Workshop" },
+        { "country": "Liberia", "full_name": "Liberia", "start_date": "2018-11-26", "end_date": "2018-11-30", "incident": "National Bridging Workshop" },
+        { "country": "Mauritania", "full_name": "Mauritania", "start_date": "2018-12-18", "end_date": "2018-12-20", "incident": "National Bridging Workshop" },
+        { "country": "Morocco", "full_name": "Morocco", "start_date": "2018-01-22", "end_date": "2018-01-26", "incident": "National Bridging Workshop" },
+        { "country": "Sierra Leone", "full_name": "Sierra Leone", "start_date": "2018-07-31", "end_date": "2018-08-02", "incident": "National Bridging Workshop" }
+      ],
+      "2019": [
+        { "country": "Benin", "full_name": "Benin", "start_date": "2019-05-15", "end_date": "2019-05-17", "incident": "National Bridging Workshop" },
+        { "country": "Niger", "full_name": "Niger", "start_date": "2019-04-16", "end_date": "2019-04-19", "incident": "National Bridging Workshop" },
+        { "country": "Nigeria", "full_name": "Nigeria", "start_date": "2019-12-09", "end_date": "2019-12-11", "incident": "National Bridging Workshop" }
+      ],
+      "2020": [
+        { "country": "Mali", "full_name": "Mali", "start_date": "2020-02-19", "end_date": "2020-02-21", "incident": "National Bridging Workshop" }
+      ],
+      "2021": [
+        { "country": "Gambia", "full_name": "The Gambia", "start_date": "2021-02-02", "end_date": "2021-02-04", "incident": "National Bridging Workshop" },
+        { "country": "Cote d'Ivoire", "full_name": "Côte d’Ivoire", "start_date": "2021-03-23", "end_date": "2021-03-25", "incident": "National Bridging Workshop" },
+        { "country": "Cameroon", "full_name": "Cameroon", "start_date": "2021-08-10", "end_date": "2021-08-12", "incident": "National Bridging Workshop" },
+        { "country": "Kenya", "full_name": "Kenya", "start_date": "2021-11-16", "end_date": "2021-11-19", "incident": "National Bridging Workshop" }
+      ],
+      "2022": [
+        { "country": "Gabon", "full_name": "Gabon", "start_date": "2022-06-22", "end_date": "2022-06-24", "incident": "National Bridging Workshop" },
+        { "country": "Congo", "full_name": "Congo", "start_date": "2022-06-28", "end_date": "2022-06-30", "incident": "National Bridging Workshop" },
+        { "country": "Zambia", "full_name": "Zambia", "start_date": "2022-10-19", "end_date": "2022-10-21", "incident": "National Bridging Workshop" },
+        { "country": "Ghana", "full_name": "Ghana", "start_date": "2022-11-22", "end_date": "2022-11-24", "incident": "National Bridging Workshop" }
+      ],
+      "2023": [
+        { "country": "Togo", "full_name": "Togo", "start_date": "2023-06-06", "end_date": "2023-06-09", "incident": "National Bridging Workshop" },
+        { "country": "Central African Republic", "full_name": "Central African Republic", "start_date": "2023-06-21", "end_date": "2023-06-23", "incident": "National Bridging Workshop" },
+        { "country": "South Africa", "full_name": "South Africa", "start_date": "2023-09-04", "end_date": "2023-09-06", "incident": "National Bridging Workshop" },
+        { "country": "Somalia", "full_name": "Somalia", "start_date": "2023-11-13", "end_date": "2023-11-15", "incident": "National Bridging Workshop" },
+        { "country": "Tunisia", "full_name": "Tunisia", "start_date": "2023-12-05", "end_date": "2023-12-07", "incident": "National Bridging Workshop" }
+      ]
+    },
+    "jee": {
+      "2016": [
+        { "country": "Cote d'Ivoire", "full_name": "Côte d'Ivoire", "start_date": "2016-12-05", "end_date": "2016-12-09", "incident": "Joint External Evaluation" },
+        { "country": "Eritrea", "full_name": "Eritrea", "start_date": "2016-10-03", "end_date": "2016-10-07", "incident": "Joint External Evaluation" },
+        { "country": "Ethiopia", "full_name": "Ethiopia", "start_date": "2016-02-29", "end_date": "2016-03-04", "incident": "Joint External Evaluation" },
+        { "country": "Liberia", "full_name": "Liberia", "start_date": "2016-09-05", "end_date": "2016-09-09", "incident": "Joint External Evaluation" },
+        { "country": "Morocco", "full_name": "Morocco", "start_date": "2016-06-20", "end_date": "2016-06-24", "incident": "Joint External Evaluation" },
+        { "country": "Mozambique", "full_name": "Mozambique", "start_date": "2016-04-18", "end_date": "2016-04-22", "incident": "Joint External Evaluation" },
+        { "country": "Namibia", "full_name": "Namibia", "start_date": "2016-11-28", "end_date": "2016-12-02", "incident": "Joint External Evaluation" },
+        { "country": "Senegal", "full_name": "Senegal", "start_date": "2016-11-28", "end_date": "2016-12-02", "incident": "Joint External Evaluation" },
+        { "country": "Sierra Leone", "full_name": "Sierra Leone", "start_date": "2016-10-31", "end_date": "2016-11-04", "incident": "Joint External Evaluation" },
+        { "country": "Somalia", "full_name": "Somalia", "start_date": "2016-09-25", "end_date": "2016-09-30", "incident": "Joint External Evaluation" },
+        { "country": "Sudan", "full_name": "Sudan", "start_date": "2016-10-09", "end_date": "2016-10-13", "incident": "Joint External Evaluation" },
+        { "country": "Tunisia", "full_name": "Tunisia", "start_date": "2016-11-28", "end_date": "2016-12-02", "incident": "Joint External Evaluation" },
+        { "country": "Tanzania", "full_name": "United Republic of Tanzania", "start_date": "2016-02-22", "end_date": "2016-02-26", "incident": "Joint External Evaluation" }
+      ],
+      "2017": [
+        { "country": "Benin", "full_name": "Benin", "start_date": "2017-05-22", "end_date": "2017-05-26", "incident": "Joint External Evaluation" },
+        { "country": "Botswana", "full_name": "Botswana", "start_date": "2017-12-03", "end_date": "2017-12-08", "incident": "Joint External Evaluation" },
+        { "country": "Burkina Faso", "full_name": "Burkina Faso", "start_date": "2017-12-03", "end_date": "2017-12-08", "incident": "Joint External Evaluation" },
+        { "country": "Cameroon", "full_name": "Cameroon", "start_date": "2017-09-24", "end_date": "2017-09-29", "incident": "Joint External Evaluation" },
+        { "country": "Chad", "full_name": "Chad", "start_date": "2017-08-07", "end_date": "2017-08-11", "incident": "Joint External Evaluation" },
+        { "country": "Comoros", "full_name": "Comoros", "start_date": "2017-08-20", "end_date": "2017-08-25", "incident": "Joint External Evaluation" },
+        { "country": "Gambia", "full_name": "Gambia", "start_date": "2017-09-24", "end_date": "2017-09-29", "incident": "Joint External Evaluation" },
+        { "country": "Ghana", "full_name": "Ghana", "start_date": "2017-02-06", "end_date": "2017-02-10", "incident": "Joint External Evaluation" },
+        { "country": "Guinea", "full_name": "Guinea", "start_date": "2017-04-23", "end_date": "2017-04-28", "incident": "Joint External Evaluation" },
+        { "country": "Kenya", "full_name": "Kenya", "start_date": "2017-02-27", "end_date": "2017-03-03", "incident": "Joint External Evaluation" },
+        { "country": "Lesotho", "full_name": "Lesotho", "start_date": "2017-07-10", "end_date": "2017-07-14", "incident": "Joint External Evaluation" },
+        { "country": "Madagascar", "full_name": "Madagascar", "start_date": "2017-07-10", "end_date": "2017-07-14", "incident": "Joint External Evaluation" },
+        { "country": "Mali", "full_name": "Mali", "start_date": "2017-06-26", "end_date": "2017-06-30", "incident": "Joint External Evaluation" },
+        { "country": "Mauritania", "full_name": "Mauritania", "start_date": "2017-03-27", "end_date": "2017-03-31", "incident": "Joint External Evaluation" },
+        { "country": "Nigeria", "full_name": "Nigeria", "start_date": "2017-06-11", "end_date": "2017-06-20", "incident": "Joint External Evaluation" },
+        { "country": "South Africa", "full_name": "South Africa", "start_date": "2017-11-26", "end_date": "2017-12-01", "incident": "Joint External Evaluation" },
+        { "country": "South Sudan", "full_name": "South Sudan", "start_date": "2017-10-15", "end_date": "2017-10-20", "incident": "Joint External Evaluation" },
+        { "country": "Uganda", "full_name": "Uganda", "start_date": "2017-06-26", "end_date": "2017-06-30", "incident": "Joint External Evaluation" },
+        { "country": "Tanzania", "full_name": "United Republic of Tanzania (Zanzibar)", "state": "Zanzibar", "start_date": "2017-04-23", "end_date": "2017-04-28", "incident": "Joint External Evaluation" },
+        { "country": "Zambia", "full_name": "Zambia", "start_date": "2017-08-07", "end_date": "2017-08-11", "incident": "Joint External Evaluation" }
+      ],
+      "2018": [
+        { "country": "Burundi", "full_name": "Burundi", "start_date": "2018-03-11", "end_date": "2018-03-16", "incident": "Joint External Evaluation" },
+        { "country": "Central African Republic", "full_name": "Central African Republic", "start_date": "2018-11-25", "end_date": "2018-11-30", "incident": "Joint External Evaluation" },
+        { "country": "Democratic Republic of Congo", "full_name": "Democratic Republic of the Congo", "start_date": "2018-03-11", "end_date": "2018-03-16", "incident": "Joint External Evaluation" },
+        { "country": "Djibouti", "full_name": "Djibouti", "start_date": "2018-07-01", "end_date": "2018-07-05", "incident": "Joint External Evaluation" },
+        { "country": "Egypt", "full_name": "Egypt", "start_date": "2018-09-30", "end_date": "2018-10-04", "incident": "Joint External Evaluation" },
+        { "country": "Eswatini", "full_name": "Kingdom of Eswatini", "start_date": "2018-04-08", "end_date": "2018-04-13", "incident": "Joint External Evaluation" },
+        { "country": "Libya", "full_name": "Libya", "start_date": "2018-07-08", "end_date": "2018-07-14", "incident": "Joint External Evaluation" },
+        { "country": "Mauritius", "full_name": "Mauritius", "start_date": "2018-10-28", "end_date": "2018-11-02", "incident": "Joint External Evaluation" },
+        { "country": "Niger", "full_name": "Niger", "start_date": "2018-07-15", "end_date": "2018-07-20", "incident": "Joint External Evaluation" },
+        { "country": "Rwanda", "full_name": "Rwanda", "start_date": "2018-05-14", "end_date": "2018-05-18", "incident": "Joint External Evaluation" },
+        { "country": "Seychelles", "full_name": "Seychelles", "start_date": "2018-03-05", "end_date": "2018-03-09", "incident": "Joint External Evaluation" },
+        { "country": "Togo", "full_name": "Togo", "start_date": "2018-04-16", "end_date": "2018-04-20", "incident": "Joint External Evaluation" },
+        { "country": "Zimbabwe", "full_name": "Zimbabwe", "start_date": "2018-02-19", "end_date": "2018-02-23", "incident": "Joint External Evaluation" }
+      ],
+      "2019": [
+        { "country": "Angola", "full_name": "Angola", "start_date": "2019-11-17", "end_date": "2019-11-22", "incident": "Joint External Evaluation" },
+        { "country": "Cabo Verde", "full_name": "Cabo Verde", "start_date": "2019-11-03", "end_date": "2019-11-08", "incident": "Joint External Evaluation" },
+        { "country": "Congo", "full_name": "Congo", "start_date": "2019-03-10", "end_date": "2019-03-15", "incident": "Joint External Evaluation" },
+        { "country": "Dominican Republic", "full_name": "Dominican Republic", "start_date": "2019-09-15", "end_date": "2019-09-21", "incident": "Joint External Evaluation" },
+        { "country": "Equatorial Guinea", "full_name": "Equatorial Guinea", "start_date": "2019-12-08", "end_date": "2019-12-13", "incident": "Joint External Evaluation" },
+        { "country": "Gabon", "full_name": "Gabon", "start_date": "2019-06-30", "end_date": "2019-07-05", "incident": "Joint External Evaluation" },
+        { "country": "Guinea Bissau", "full_name": "Guinea Bissau", "start_date": "2019-07-07", "end_date": "2019-07-12", "incident": "Joint External Evaluation" },
+        { "country": "Malawi", "full_name": "Malawi", "start_date": "2019-02-11", "end_date": "2019-02-15", "incident": "Joint External Evaluation" },
+        { "country": "Sao Tome and Principe", "full_name": "Sao Tome & Principe", "start_date": "2019-05-12", "end_date": "2019-05-17", "incident": "Joint External Evaluation" }
+      ],
+      "2023": [
+        { "country": "Sierra Leone", "full_name": "Sierra Leone", "start_date": "2023-02-27", "end_date": "2023-03-03", "incident": "Joint External Evaluation" },
+        { "country": "Guinea", "full_name": "Guinea", "start_date": "2023-05-22", "end_date": "2023-05-26", "incident": "Joint External Evaluation" },
+        { "country": "Senegal", "full_name": "Senegal", "start_date": "2023-07-17", "end_date": "2023-07-21", "incident": "Joint External Evaluation" },
+        { "country": "Benin", "full_name": "Benin", "start_date": "2023-07-24", "end_date": "2023-07-28", "incident": "Joint External Evaluation" },
+        { "country": "Chad", "full_name": "Chad", "start_date": "2023-07-24", "end_date": "2023-07-28", "incident": "Joint External Evaluation" },
+        { "country": "Nigeria", "full_name": "Nigeria", "start_date": "2023-08-14", "end_date": "2023-08-18", "incident": "Joint External Evaluation" },
+        { "country": "Tanzania", "full_name": "Tanzania", "start_date": "2023-08-14", "end_date": "2023-08-18", "incident": "Joint External Evaluation" },
+        { "country": "Tanzania", "full_name": "Zanzibar", "state": "Zanzibar", "start_date": "2023-08-21", "end_date": "2023-08-25", "incident": "Joint External Evaluation" },
+        { "country": "Liberia", "full_name": "Liberia", "start_date": "2023-09-04", "end_date": "2023-09-08", "incident": "Joint External Evaluation" },
+        { "country": "Central African Republic", "full_name": "Central African Republic", "start_date": "2023-09-11", "end_date": "2023-09-15", "incident": "Joint External Evaluation" },
+        { "country": "Mali", "full_name": "Mali", "start_date": "2023-09-11", "end_date": "2023-09-15", "incident": "Joint External Evaluation" },
+        { "country": "Ethiopia", "full_name": "Ethiopia", "start_date": "2023-09-18", "end_date": "2023-09-22", "incident": "Joint External Evaluation" },
+        { "country": "Angola", "full_name": "Angola", "start_date": "2023-09-25", "end_date": "2023-09-29", "incident": "Joint External Evaluation" },
+        { "country": "Congo", "full_name": "Congo", "start_date": "2023-10-02", "end_date": "2023-10-07", "incident": "Joint External Evaluation" },
+        { "country": "Zambia", "full_name": "Zambia", "start_date": "2023-10-02", "end_date": "2023-10-07", "incident": "Joint External Evaluation" },
+        { "country": "Democratic Republic of Congo", "full_name": "Democratic Republic of Congo", "start_date": "2023-10-22", "end_date": "2023-10-27", "incident": "Joint External Evaluation" },
+        { "country": "Uganda", "full_name": "Uganda", "start_date": "2023-10-22", "end_date": "2023-10-27", "incident": "Joint External Evaluation" },
+        { "country": "Mauritania", "full_name": "Mauritania", "start_date": "2023-11-05", "end_date": "2023-11-10", "incident": "Joint External Evaluation" },
+        { "country": "Burundi", "full_name": "Burundi", "start_date": "2023-11-19", "end_date": "2023-11-24", "incident": "Joint External Evaluation" },
+        { "country": "Cote d'Ivoire", "full_name": "Cote d’Ivoire", "start_date": "2023-12-03", "end_date": "2023-12-08", "incident": "Joint External Evaluation" }
+      ],
+      "2024": [
+        { "country": "Botswana", "full_name": "Botswana", "start_date": "2024-03-11", "end_date": "2024-03-15", "incident": "Joint External Evaluation" },
+        { "country": "Burkina Faso", "full_name": "Burkina Faso", "start_date": "2024-07-01", "end_date": "2024-07-05", "incident": "Joint External Evaluation" },
+        { "country": "Togo", "full_name": "Togo", "start_date": "2024-08-19", "end_date": "2024-08-23", "incident": "Joint External Evaluation" },
+        { "country": "Gambia", "full_name": "Gambia", "start_date": "2024-09-09", "end_date": "2024-09-13", "incident": "Joint External Evaluation" },
+        { "country": "South Africa", "full_name": "South Africa", "start_date": "2024-09-16", "end_date": "2024-09-20", "incident": "Joint External Evaluation" },
+        { "country": "South Sudan", "full_name": "South Sudan", "start_date": "2024-09-16", "end_date": "2024-09-20", "incident": "Joint External Evaluation" },
+        { "country": "Eswatini", "full_name": "Eswatini", "start_date": "2024-09-23", "end_date": "2024-09-27", "incident": "Joint External Evaluation" },
+        { "country": "Kenya", "full_name": "Kenya", "start_date": "2024-09-08", "end_date": "2024-09-13", "incident": "Joint External Evaluation" },
+        { "country": "Malawi", "full_name": "Malawi", "start_date": "2024-11-02", "end_date": "2024-11-06", "incident": "Joint External Evaluation" }
+      ]
+    }
+  }

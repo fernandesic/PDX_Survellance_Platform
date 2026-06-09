@@ -1,0 +1,603 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Remove ArcGIS map focus outlines */
+.esri-view,
+.esri-view-surface,
+.esri-view-surface canvas,
+.esri-view *:focus,
+.esri-view *:focus-visible {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.esri-view-surface:focus,
+.esri-view-surface:focus-visible,
+.esri-view-surface--inset-outline:focus::after {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+@layer base {
+  @font-face {
+    font-family: "Fellix";
+    src: url("/fellix/Fellix-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+
+
+
+  @font-face {
+    font-family: "Fellix";
+    src: url("/fellix/Fellix-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+
+
+  @font-face {
+    font-family: "Fellix";
+    src: url("/fellix/Fellix-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+
+
+
+  @font-face {
+    font-family: "Fellix";
+    src: url("/fellix/Fellix-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
+
+
+
+
+
+}
+
+
+
+:root,
+:root.dark {
+  --bull-green: #00ff88;
+  --bear-red: #ff3366;
+  --neon-cyan: #00fff2;
+  --accent-blue: #3b82f6;
+  --accent-purple: #a855f7;
+  --gold: #ffaa00;
+  --market-dark: #0d1424;
+  --market-darker: #070d18;
+  --card-bg: rgba(13, 20, 36, 0.6);
+  --glass-bg: rgba(255, 255, 255, 0.03);
+  --border-glow: rgba(0, 255, 242, 0.3);
+
+  --bg-primary: #070d18;
+  --bg-secondary: #0d1424;
+  --bg-tertiary: #11244D;
+  --text-primary: #ffffff;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --border-color: rgba(255, 255, 255, 0.05);
+  --border-glow-color: rgba(0, 255, 242, 0.3);
+  --scrollbar-thumb: rgba(0, 255, 242, 0.2);
+  --scrollbar-track: rgba(13, 20, 36, 0.3);
+}
+
+:root.light {
+  --bull-green: #10b981;
+  --bear-red: #ef4444;
+  --neon-cyan: #06b6d4;
+  --accent-blue: #3b82f6;
+  --accent-purple: #8b5cf6;
+  --gold: #f59e0b;
+  --market-dark: #ffffff;
+  --market-darker: #f9fafb;
+  --card-bg: rgba(255, 255, 255, 0.95);
+  --glass-bg: rgba(0, 0, 0, 0.03);
+  --border-glow: rgba(59, 130, 246, 0.2);
+
+  --bg-primary: #ffffff;
+  --bg-secondary: #f9fafb;
+  --bg-tertiary: #eff6ff;
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --text-muted: #9ca3af;
+  --border-color: rgba(0, 0, 0, 0.08);
+  --border-glow-color: rgba(59, 130, 246, 0.25);
+  --scrollbar-thumb: rgba(156, 163, 175, 0.4);
+  --scrollbar-track: rgba(249, 250, 251, 0.5);
+}
+
+/* Theme transition — only applied to layout containers, not every DOM element */
+.theme-transition {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.animate-spin,
+.animate-pulse,
+.animate-bounce,
+.animate-marquee,
+.animate-pulse-slow,
+.animate-pulse-red,
+.animate-float,
+.animate-shimmer,
+.animate-gradient,
+.animate-number-update,
+[class*="animate-"],
+.recharts-wrapper,
+.recharts-wrapper *,
+.recharts-surface,
+.recharts-surface * {
+  transition: none !important;
+}
+
+button,
+a,
+input,
+select,
+textarea,
+.hover-lift,
+.ticker-item,
+.data-grid-item {
+  transition-duration: 0.2s;
+}
+
+
+.recharts-wrapper,
+.recharts-wrapper *,
+.recharts-surface,
+.recharts-layer,
+svg,
+svg * {
+  outline: none !important;
+}
+
+.recharts-wrapper:focus,
+.recharts-wrapper *:focus,
+.recharts-wrapper:focus-visible,
+.recharts-wrapper *:focus-visible {
+  outline: none !important;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes pulse-glow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 15px rgba(0, 255, 242, 0.3);
+  }
+
+  50% {
+    box-shadow: 0 0 30px rgba(0, 255, 242, 0.6);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes gradient-shift {
+
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes number-update {
+  0% {
+    opacity: 0.6;
+    transform: scale(0.98);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.02);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  background-size: 1000px 100%;
+  animation: shimmer 2s infinite;
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient-shift 4s ease infinite;
+}
+
+.animate-number-update {
+  animation: number-update 0.3s ease-out;
+}
+
+@keyframes pulse-slow {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.85;
+  }
+}
+
+@keyframes pulse-red {
+
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+  }
+
+  50% {
+    box-shadow: 0 0 0 10px rgba(239, 68, 68, 0);
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 2s ease-in-out infinite;
+}
+
+.animate-pulse-red {
+  animation: pulse-red 1.5s ease-in-out infinite;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.glass-card {
+  background: rgba(13, 20, 36, 0.4);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glass-card-hover {
+  transition: all 0.3s ease;
+}
+
+.glass-card-hover:hover {
+  background: rgba(13, 20, 36, 0.6);
+  border-color: rgba(0, 255, 242, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(0, 255, 242, 0.15);
+}
+
+.border-glow-cyan {
+  border: 1px solid rgba(0, 255, 242, 0.2);
+  box-shadow: 0 0 15px rgba(0, 255, 242, 0.1);
+}
+
+.border-glow-cyan:hover {
+  border-color: rgba(0, 255, 242, 0.4);
+  box-shadow: 0 0 25px rgba(0, 255, 242, 0.2);
+}
+
+.border-glow-green {
+  border: 1px solid rgba(0, 255, 136, 0.2);
+  box-shadow: 0 0 15px rgba(0, 255, 136, 0.1);
+}
+
+.border-glow-red {
+  border: 1px solid rgba(255, 51, 102, 0.2);
+  box-shadow: 0 0 15px rgba(255, 51, 102, 0.1);
+}
+
+.ticker-item {
+  display: inline-flex;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease;
+}
+
+.ticker-item:hover {
+  background: rgba(255, 255, 255, 0.05);
+  transform: scale(1.02);
+}
+
+.gradient-bull {
+  background: linear-gradient(135deg, rgba(0, 255, 136, 0.1), rgba(0, 255, 136, 0.05));
+}
+
+.gradient-bear {
+  background: linear-gradient(135deg, rgba(255, 51, 102, 0.1), rgba(255, 51, 102, 0.05));
+}
+
+.gradient-premium {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(168, 85, 247, 0.1));
+}
+
+.market-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.market-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.03), transparent);
+  transition: left 0.5s ease;
+}
+
+.market-card:hover::before {
+  left: 100%;
+}
+
+.stat-up {
+  color: var(--bull-green);
+}
+
+.stat-down {
+  color: var(--bear-red);
+}
+
+.stat-neutral {
+  color: #64748b;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 255, 242, 0.2);
+  border-radius: 10px;
+  transition: background 0.2s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 255, 242, 0.4);
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(13, 20, 36, 0.3);
+  border-radius: 10px;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 255, 242, 0.2) rgba(13, 20, 36, 0.3);
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.text-gradient-cyan {
+  background: linear-gradient(135deg, #00fff2, #00a8cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-gradient-gold {
+  background: linear-gradient(135deg, #ffaa00, #ff6b00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.icon-glow {
+  box-shadow: 0 0 20px currentColor;
+  opacity: 0.8;
+}
+
+.skeleton {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.03));
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 8px;
+}
+
+.hover-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.data-grid-item {
+  transition: all 0.2s ease;
+}
+
+.data-grid-item:hover {
+  background: rgba(255, 255, 255, 0.02);
+  border-color: rgba(0, 255, 242, 0.2);
+}
+
+input[type="range"].slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 8px;
+  border-radius: 4px;
+}
+
+input[type="range"].slider-thumb::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #3b82f6;
+  border: 3px solid #1e40af;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+  transition: all 0.2s ease;
+}
+
+input[type="range"].slider-thumb::-webkit-slider-thumb:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.8);
+}
+
+input[type="range"].slider-thumb::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #3b82f6;
+  border: 3px solid #1e40af;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+}
+
+@keyframes scale-pan {
+  0% {
+    transform: scale(1.05) translate(0, 0);
+  }
+
+  50% {
+    transform: scale(1.15) translate(-1%, -1%);
+  }
+
+  100% {
+    transform: scale(1.05) translate(0, 0);
+  }
+}
+
+.animate-scale-pan {
+  animation: scale-pan 20s ease-in-out infinite;
+}
+/* Override ArcGIS Map Focus Outline */
+.esri-view .esri-view-surface--inset-outline:focus::after {
+    outline: none !important;
+}
+.esri-view-surface:focus::after {
+    outline: none !important;
+}
+
+/* === PIP Dashboard Custom CSS === */
+:root {
+  --who-blue: #009ADE;
+  --who-darkblue: #00558B;
+  --who-teal: #00A5A8;
+  --who-green: #78BE20;
+  --who-orange: #F26522;
+  --who-red: #C4262E;
+  --who-yellow: #FBBA00;
+}
+
+.who-header-bar {
+  background: linear-gradient(135deg, #00558B 0%, #009ADE 100%);
+}
+
+.kpi-card {
+  @apply bg-white rounded-xl shadow-sm border border-gray-100 p-5 transition-all duration-200;
+}
+.kpi-card:hover {
+  @apply shadow-md;
+  transform: translateY(-1px);
+}
+
+.badge-on-track   { @apply bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded-full; }
+.badge-at-risk    { @apply bg-yellow-100 text-yellow-800 text-xs font-semibold px-2.5 py-0.5 rounded-full; }
+.badge-achieved   { @apply bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded-full; }
+.badge-not-started { @apply bg-gray-100 text-gray-600 text-xs font-semibold px-2.5 py-0.5 rounded-full; }
+
+.nav-active {
+  background: rgba(255, 255, 255, 0.15);
+  border-left: 3px solid #FBBA00;
+}
+
+.progress-bar {
+  @apply h-2 rounded-full bg-gray-200 overflow-hidden;
+}
+.progress-fill {
+  @apply h-full rounded-full transition-all duration-500;
+}
+
+.data-table th {
+  @apply text-xs font-bold text-emerald-500/70 uppercase tracking-wider bg-transparent px-4 py-3 border-b border-white/10;
+}
+.data-table td {
+  @apply text-sm px-4 py-3 border-b border-white/5 transition-colors;
+}
+.data-table tr:hover td {
+  @apply bg-emerald-500/10;
+}
+
+.bulletin-card {
+  border-left: 4px solid var(--who-blue);
+}
+
+.hm-cell-0 { background-color: #F3F4F6; }
+.hm-cell-1 { background-color: #FEE2E2; }
+.hm-cell-2 { background-color: #DCFCE7; }

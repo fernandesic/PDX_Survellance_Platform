@@ -1,0 +1,116 @@
+[project]
+name = "pdx-health-backend"
+version = "1.0.0"
+description = "WHO/PDX Health Data Platform Backend"
+requires-python = ">=3.11"
+
+# ─────────────────────────────────────────────────────────────────
+# Ruff — Linter & Formatter
+# ─────────────────────────────────────────────────────────────────
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+exclude = [
+    "venv",
+    ".venv",
+    "migrations",
+    "__pycache__",
+    "manage.py",
+    "scripts",
+]
+
+[tool.ruff.lint]
+select = [
+    "E",      # pycodestyle errors
+    "W",      # pycodestyle warnings
+    "F",      # pyflakes (catches wildcard imports, unused vars)
+    "I",      # isort (import ordering)
+    "B",      # flake8-bugbear (common pitfalls)
+    "S",      # flake8-bandit (security checks)
+    "T20",    # flake8-print (catches print statements)
+]
+ignore = [
+    "S101",   # Allow assert in tests
+    "S105",   # Possible hardcoded password (too many false positives with field names)
+    "E501",   # Line too long — handled by formatter, not linter
+]
+
+[tool.ruff.lint.per-file-ignores]
+"*/tests/*" = ["S101", "S106"]  # Allow assert and hardcoded test passwords in tests
+"datarepr/settings/*" = ["F405", "F403"]  # Allow wildcard imports in settings
+
+[tool.ruff.lint.isort]
+known-first-party = [
+    "account",
+    "chwfolder",
+    "espar",
+    "readiness",
+    "stardata",
+    "utils",
+    "ihmref",
+    "sentinel",
+    "hdis",
+    "supplier_form",
+    "department_form",
+    "arcgis_proxy",
+    "predictions",
+    "pami",
+    "pip_dashboard",
+    "onehealth",
+    "common",
+    "datarepr",
+]
+
+# ─────────────────────────────────────────────────────────────────
+# Black — Formatter
+# ─────────────────────────────────────────────────────────────────
+[tool.black]
+target-version = ["py311"]
+line-length = 120
+extend-exclude = '''
+/(
+    venv
+  | \.venv
+  | migrations
+  | __pycache__
+  | scripts
+)/
+'''
+
+# ─────────────────────────────────────────────────────────────────
+# isort — Import sorter (kept in sync with Ruff's isort rules above)
+# ─────────────────────────────────────────────────────────────────
+[tool.isort]
+profile = "black"
+line_length = 120
+known_first_party = [
+    "account",
+    "chwfolder",
+    "espar",
+    "readiness",
+    "stardata",
+    "utils",
+    "ihmref",
+    "sentinel",
+    "hdis",
+    "supplier_form",
+    "department_form",
+    "arcgis_proxy",
+    "predictions",
+    "pami",
+    "pip_dashboard",
+    "onehealth",
+    "common",
+    "datarepr",
+]
+skip = ["venv", ".venv", "migrations", "scripts"]
+
+# ─────────────────────────────────────────────────────────────────
+# Pytest
+# ─────────────────────────────────────────────────────────────────
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "datarepr.settings"
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"

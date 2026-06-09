@@ -1,0 +1,46 @@
+# ─── Environment & Secrets ────────────────────────────────────────
+.env
+*.env
+.env.production
+!.env.example
+local_settings.py
+
+# ─── Python ───────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ─── Virtual Environment ─────────────────────────────────────────
+.venv/
+venv/
+.virtualenv/
+*.venv
+*virtualenv/
+
+# ─── Django ───────────────────────────────────────────────────────
+db.sqlite3
+staticfiles/
+media/
+*.log
+logs/
+
+# ─── Server / Process ────────────────────────────────────────────
+nohup.out
+*.pid
+*.sock
+
+# ─── IDE / Editor ────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── OS ──────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db

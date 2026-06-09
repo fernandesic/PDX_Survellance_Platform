@@ -1,0 +1,16 @@
+
+> datarepr@0.0.0 build
+> tsc -b && vite build
+
+src/components/chw/CHWRecruitmentPipeline.tsx(55,64): error TS2339: Property 'data' does not exist on type 'ChwPipelineResponse'.
+src/components/chw/CHWRecruitmentPipeline.tsx(61,30): error TS2339: Property 'data' does not exist on type 'ChwPipelineResponse'.
+src/components/chw/CHWRecruitmentPipeline.tsx(164,42): error TS7006: Parameter 'r' implicitly has an 'any' type.
+src/components/chw/CHWTable.tsx(139,58): error TS2339: Property 'region_name' does not exist on type 'number'.
+src/components/chw/CHWTable.tsx(140,59): error TS2339: Property 'country' does not exist on type 'number'.
+src/components/chw/CHWVisualizations.tsx(38,44): error TS2339: Property 'country' does not exist on type 'number'.
+src/components/chw/CHWVisualizations.tsx(39,42): error TS2339: Property 'region_name' does not exist on type 'number'.
+src/components/predictions/InterventionPlanChart.tsx(180,37): error TS2322: Type '(v: number) => string' is not assignable to type 'LabelFormatter'.
+  Types of parameters 'v' and 'label' are incompatible.
+    Type 'RenderableText' is not assignable to type 'number'.
+      Type 'undefined' is not assignable to type 'number'.
+src/pages/climate.tsx(157,117): error TS2554: Expected 2 arguments, but got 3.

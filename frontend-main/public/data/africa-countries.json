@@ -1,0 +1,757 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "DZA",
+                "name": "Algeria",
+                "admin_level": "country",
+                "population": 44000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.0,
+                    28.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "AGO",
+                "name": "Angola",
+                "admin_level": "country",
+                "population": 33000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.5,
+                    -12.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "BEN",
+                "name": "Benin",
+                "admin_level": "country",
+                "population": 12000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3,
+                    9.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "BWA",
+                "name": "Botswana",
+                "admin_level": "country",
+                "population": 2400000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.5,
+                    -22.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "BFA",
+                "name": "Burkina Faso",
+                "admin_level": "country",
+                "population": 21000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.5,
+                    12.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "BDI",
+                "name": "Burundi",
+                "admin_level": "country",
+                "population": 12000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.9,
+                    -3.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "CPV",
+                "name": "Cabo Verde",
+                "admin_level": "country",
+                "population": 560000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -24.0,
+                    16.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "CMR",
+                "name": "Cameroon",
+                "admin_level": "country",
+                "population": 27000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.5,
+                    6.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "CAF",
+                "name": "Central African Republic",
+                "admin_level": "country",
+                "population": 5000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.5,
+                    7.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "TCD",
+                "name": "Chad",
+                "admin_level": "country",
+                "population": 17000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0,
+                    15.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "COM",
+                "name": "Comoros",
+                "admin_level": "country",
+                "population": 870000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    43.3,
+                    -11.7
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "COG",
+                "name": "Congo",
+                "admin_level": "country",
+                "population": 5500000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.0,
+                    -1.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "CIV",
+                "name": "Côte d'Ivoire",
+                "admin_level": "country",
+                "population": 27000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.5,
+                    7.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "COD",
+                "name": "Democratic Republic of the Congo",
+                "admin_level": "country",
+                "population": 95000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.5,
+                    -2.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "GNQ",
+                "name": "Equatorial Guinea",
+                "admin_level": "country",
+                "population": 1500000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5,
+                    1.7
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ERI",
+                "name": "Eritrea",
+                "admin_level": "country",
+                "population": 3600000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.0,
+                    15.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "SWZ",
+                "name": "Eswatini",
+                "admin_level": "country",
+                "population": 1200000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.5,
+                    -26.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ETH",
+                "name": "Ethiopia",
+                "admin_level": "country",
+                "population": 120000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.5,
+                    8.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "GAB",
+                "name": "Gabon",
+                "admin_level": "country",
+                "population": 2300000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.8,
+                    -0.8
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "GMB",
+                "name": "Gambia",
+                "admin_level": "country",
+                "population": 2500000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -15.5,
+                    13.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "GHA",
+                "name": "Ghana",
+                "admin_level": "country",
+                "population": 32000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.0,
+                    8.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "GIN",
+                "name": "Guinea",
+                "admin_level": "country",
+                "population": 13000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -10.0,
+                    10.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "GNB",
+                "name": "Guinea-Bissau",
+                "admin_level": "country",
+                "population": 2000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -15.0,
+                    12.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "KEN",
+                "name": "Kenya",
+                "admin_level": "country",
+                "population": 54000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.5,
+                    0.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "LSO",
+                "name": "Lesotho",
+                "admin_level": "country",
+                "population": 2200000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.5,
+                    -29.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "LBR",
+                "name": "Liberia",
+                "admin_level": "country",
+                "population": 5200000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.5,
+                    6.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "MDG",
+                "name": "Madagascar",
+                "admin_level": "country",
+                "population": 29000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    46.5,
+                    -19.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "MWI",
+                "name": "Malawi",
+                "admin_level": "country",
+                "population": 20000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.0,
+                    -13.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "MLI",
+                "name": "Mali",
+                "admin_level": "country",
+                "population": 21000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.0,
+                    17.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "MRT",
+                "name": "Mauritania",
+                "admin_level": "country",
+                "population": 4700000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -10.0,
+                    20.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "MUS",
+                "name": "Mauritius",
+                "admin_level": "country",
+                "population": 1300000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    57.5,
+                    -20.3
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "MOZ",
+                "name": "Mozambique",
+                "admin_level": "country",
+                "population": 32000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.5,
+                    -18.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "NAM",
+                "name": "Namibia",
+                "admin_level": "country",
+                "population": 2600000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0,
+                    -22.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "NER",
+                "name": "Niger",
+                "admin_level": "country",
+                "population": 25000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0,
+                    16.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "NGA",
+                "name": "Nigeria",
+                "admin_level": "country",
+                "population": 220000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.0,
+                    10.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "RWA",
+                "name": "Rwanda",
+                "admin_level": "country",
+                "population": 13000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.0,
+                    -2.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "STP",
+                "name": "Sao Tome and Principe",
+                "admin_level": "country",
+                "population": 220000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.7,
+                    0.3
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "SEN",
+                "name": "Senegal",
+                "admin_level": "country",
+                "population": 17000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -14.5,
+                    14.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "SYC",
+                "name": "Seychelles",
+                "admin_level": "country",
+                "population": 100000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.5,
+                    -4.6
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "SLE",
+                "name": "Sierra Leone",
+                "admin_level": "country",
+                "population": 8200000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -11.8,
+                    8.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ZAF",
+                "name": "South Africa",
+                "admin_level": "country",
+                "population": 60000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.0,
+                    -29.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "SSD",
+                "name": "South Sudan",
+                "admin_level": "country",
+                "population": 11000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.0,
+                    7.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "TZA",
+                "name": "Tanzania",
+                "admin_level": "country",
+                "population": 63000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.0,
+                    -6.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "TGO",
+                "name": "Togo",
+                "admin_level": "country",
+                "population": 8500000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.2,
+                    8.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "UGA",
+                "name": "Uganda",
+                "admin_level": "country",
+                "population": 47000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.5,
+                    1.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ZMB",
+                "name": "Zambia",
+                "admin_level": "country",
+                "population": 19000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.5,
+                    -13.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "ZWE",
+                "name": "Zimbabwe",
+                "admin_level": "country",
+                "population": 15000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.0,
+                    -19.0
+                ]
+            }
+        }
+    ]
+}

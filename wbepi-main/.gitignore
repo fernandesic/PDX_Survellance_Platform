@@ -1,0 +1,11 @@
+*~
+PAT*
+README.html
+.Rhistory
+*.o
+*.so
+.Rproj.user
+*.Rproj
+*.dll
+
+

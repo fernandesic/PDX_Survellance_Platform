@@ -1,0 +1,76 @@
+---
+  output: github_document
+---
+
+  <!-- README.md is generated from README.Rmd. Please edit that file. -->
+  <!-- The code to render this README is stored in .github/workflows/render-readme.yaml -->
+  <!-- Variables marked with double curly braces will be transformed beforehand: -->
+  <!-- `packagename` is extracted from the DESCRIPTION file -->
+  <!-- `gh_repo` is extracted via a special environment variable in GitHub Actions -->
+
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%", 
+  dpi = 300
+)
+```
+
+
+Generate a toy dataset:
+
+
+```{r}
+
+library(wbepi)
+
+set.seed(1)
+x <- run_seirdv(
+  n_populations = 4, 
+  ini_S = c(1000, 3000, 12000, 2000),
+  ini_I = c(10, 0, 0, 1), 
+  beta = 0.2,
+  sigma = 1/7, # 1 week incubation time
+  gamma = 1/14, # 2 week disease duration
+  mu = 0.3, # 30% mortality
+  interv_delay = 10, # response takes place 10 days after first case
+  interv_efficacy = 0.25, # response removes 25% infectiousness
+  interv_vacc_type = 2L,
+  target_size = 200, # 200% people vaccinated per case
+  interv_release = 28, # stop response after 28 days without case
+  time = 365, # 1 year of simulation
+  diffusion = 0.1, # 10% diffusion of infections
+  n_sims = 10 # 10 independent simulations
+)
+
+
+```
+
+We can check the results:
+
+```{r}
+
+dim(x)
+head(x)
+tail(x)
+
+## general plot
+matplot(x[, "step"], x[, grep("I", names(x))],
+  type = "l", lty = 1, main = "Example simulation",
+  xlab = "Time (in days)", ylab = "Number of infected"
+)
+legend("topright", "Population", col = 1:4, lty = 1, legend = 1:4)
+
+```
+
+Export results if needed:
+
+```{r}
+rio::export(x, file = "toy_data.xlsx")
+```
+
+
+
